@@ -189,7 +189,7 @@ body {
   object-fit: cover;
 }
 
-.frist-ft-card {
+.ft-card {
   background-color: #1d1b16;
   padding: 10px 13px;
   display: grid;
@@ -197,7 +197,7 @@ body {
   border-radius: 5px;
 }
 
-.first-ft-left {
+.ft-text-box {
   color: #dddddd;
   display: flex;
   flex-direction: column;
@@ -214,14 +214,14 @@ body {
   color: #ea6500;
 }
 
-.first-ft-left h3 {
+.ft-text-box h3 {
   font-size: 1rem;
   font-weight: normal;
   color: #dedede;
   line-height: 1.4;
 }
 
-.first-ft-left .ft-desc {
+.ft-text-box .ft-desc {
   color: #8a8888;
   font-size: 1rem;
 }
@@ -237,4 +237,8 @@ body {
 
 .second-ft-text {
   margin-left: 2rem;
+}
+
+.ft-text-box .third-ft {
+  padding-right: 1.7rem;
 }
