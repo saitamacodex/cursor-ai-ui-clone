@@ -174,11 +174,15 @@ body {
 /* feature section design */
 
 /* first feature card design */
+#feature-card {
+  margin-bottom: 4rem;
+}
+
 .feature-section {
   margin-top: 4rem;
 }
 
-.ft-first-image {
+.ft-card-image {
   width: 600px;
   height: 450px;
   display: block;
@@ -198,7 +202,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   cursor: pointer;
 }
 
@@ -230,4 +233,8 @@ body {
 
 .ft-link:hover {
   color: #c25501;
+}
+
+.second-ft-text {
+  margin-left: 2rem;
 }
