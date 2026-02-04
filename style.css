@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
 }
 
+/* header design */
 /* navbar styling */
 
 .cursor-icon {
@@ -87,9 +88,8 @@ body {
   border: 1px solid #888888;
 }
 
-/* main section design */
-
-/* hero design */
+/* main section design starts from here */
+/* hero section design */
 .hero-container {
   color: #dbdbdb;
   margin-top: 7rem;
@@ -125,4 +125,48 @@ body {
   display: block;
   object-fit: cover;
   border-radius: 5px;
+}
+
+/* brand partner section design */
+
+.brand-collab {
+  margin-top: 3rem;
+}
+
+.brand-stack-container h2 {
+  color: #c2c1c1;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.brand-logostack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 7.5px;
+}
+
+.brand-logo {
+  background-color: #1d1b16;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.stripe img {
+  width: 50px;
+  height: 50px;
+}
+
+.figma img {
+  width: 50px;
+  height: 50px;
 }
