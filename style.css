@@ -505,3 +505,87 @@ figcaption p {
   object-fit: cover;
   display: block;
 }
+
+/* *********** recent-highligts design ********** */
+#recent-highligts {
+  padding: 4rem 1rem;
+  background-color: #1b1913;
+  margin-top: 6rem;
+
+  /* this code will change the body width style to full  */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.highlight-container {
+  /* center the section back to body width */
+  width: 940px;
+  margin: 0 auto;
+}
+
+.highlight-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+.highlight-heading h3 {
+  color: #c6c6c6;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.highlight-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.highlight-lists a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #cf3603;
+  display: block;
+}
+
+.highlight-card {
+  height: 80px;
+  background-color: oklab(0.24 0 0.01 / 0.8);
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlight-card-text-left p:first-child {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.highlight-card-text-left p:last-child {
+  width: 390px;
+  color: #8d8b8b;
+  font-size: small;
+  line-height: 1.3;
+  font-size: 11px;
+}
+
+.highlight-card-text-right {
+  /* margin-top: 1rem; */
+  margin-top: auto;
+}
+
+.highlight-card-text-right span {
+  color: #8d8b8b;
+  font-size: 13px;
+}
+
+.highlight-card-text-right span::after {
+  content: " - ";
+}
+
+.highlight-card-text-right time {
+  color: #8d8b8b;
+  font-size: 12px;
+}
