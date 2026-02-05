@@ -335,13 +335,6 @@ figcaption p {
   font-size: large;
 }
 
-.usecase-image-1,
-.usecase-image-2,
-.usecase-image-3 {
-  height: 280px;
-  width: 280px;
-}
-
 /* usecase container design */
 .usecase-grid-container {
   display: grid;
@@ -349,18 +342,14 @@ figcaption p {
   gap: 5px;
 }
 
-.usecase-cards {
-  /* border: 2px solid orange; */
-  height: 100%;
-}
-
 .usercase-card-box {
   background-color: #1d1b16;
   color: #cfcbcb;
-  display: flex;
-  flex-direction: column;
   padding: 12px;
   border-radius: 4px;
+  min-height: 370px;
+  display: flex;
+  flex-direction: column;
 }
 
 .usecase-textarea {
@@ -368,6 +357,7 @@ figcaption p {
   display: flex;
   flex-direction: column;
   margin-bottom: 7px;
+  gap: 10px;
 }
 
 .usecase-textarea h3 {
@@ -388,6 +378,17 @@ figcaption p {
   color: #cf3603;
 }
 
-.usecase-textarea > div {
-  margin-bottom: 10px;
+.usercase-figure {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.usercase-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.usecase-textarea a:hover {
+  color: #af2d02;
 }
