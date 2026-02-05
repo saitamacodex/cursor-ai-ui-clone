@@ -190,7 +190,7 @@ body {
 }
 
 .ft-card {
-  background-color: #1d1b16;
+  background-color: #1b1913;
   padding: 10px 13px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -277,7 +277,7 @@ body {
 }
 
 .tm-card {
-  background-color: #1d1b16;
+  background-color: #1b1913;
   padding: 12px;
   border-radius: 2px;
   min-height: 180px;
@@ -343,7 +343,7 @@ figcaption p {
 }
 
 .usercase-card-box {
-  background-color: #1d1b16;
+  background-color: #1b1913;
   color: #cfcbcb;
   padding: 12px;
   border-radius: 4px;
@@ -417,6 +417,10 @@ figcaption p {
   margin-top: 1rem;
 }
 
+.changelog-container a:hover {
+  color: #8f2400;
+}
+
 .changelog-articles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -426,7 +430,7 @@ figcaption p {
 .log-article {
   padding: 15px;
   border-radius: 3px;
-  background-color: #1d1b16;
+  background-color: #1b1913;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -452,4 +456,52 @@ figcaption p {
 .log-article:hover {
   cursor: pointer;
   background-color: #22201a;
+}
+
+/* ************ Team Section *********** */
+#team-section {
+  padding: 2rem 1rem;
+}
+
+.team-container {
+  background-color: #1b1913;
+  padding: 15px;
+}
+
+.team-grid-ct {
+  min-height: 320px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  /* border: 1px solid blue; */
+}
+
+.team-textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-textarea h3 {
+  color: #cbcbcb;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.team-textarea p {
+  color: #cf3603;
+  margin-top: 10px;
+  font-size: small;
+}
+
+.team-textarea p:hover {
+  color: #ae2e03;
+  cursor: pointer;
+}
+
+.team-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
