@@ -589,3 +589,97 @@ figcaption p {
   color: #8d8b8b;
   font-size: 12px;
 }
+
+.highlight-card:hover {
+  cursor: pointer;
+  background-color: #24211b;
+}
+
+.highlight-lists a:hover {
+  color: #b33004;
+}
+
+/* CTA section design */
+#cta {
+  padding: 6.2rem 1rem;
+}
+
+.cta-container {
+  text-align: center;
+}
+
+.cta-box h2 {
+  color: #dfdfdf;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* footer section */
+#footer-section {
+  padding: 2rem 1rem;
+  background-color: #1b1913;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.footer-box-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.footer-nav {
+  margin-bottom: 3rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.footer-grid h3 {
+  padding-bottom: 5px;
+  color: #777575;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.footer-grid ul {
+  list-style-type: none;
+}
+
+.footer-grid a {
+  text-decoration: none;
+  color: #c1bdbd;
+  font-size: 11px;
+  padding: 4px 0;
+}
+
+.copy-right small {
+  color: #777575;
+  font-size: 11px;
+  margin-right: 1rem;
+}
+
+.copy-right a {
+  text-decoration: none;
+  color: #777575;
+}
+
+.copy-right img {
+  height: 10px;
+  width: 12px;
+}
+
+.copy-right a:hover {
+  color: #c1bdbd;
+}
+
+.footer-grid .connect:hover::after {
+  content: "↗";
+  color: #e5e1da;
+  font-size: 8px;
+  margin-left: 5px;
+}
