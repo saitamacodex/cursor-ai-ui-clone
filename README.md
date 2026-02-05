@@ -16,6 +16,10 @@ A frontend UI clone inspired by Cursor AI, built using pure HTML and CSS.
 
 This project is for educational purposes only and is not affiliated with Cursor AI.
 
+### Live Preview
+
+https://saitamacodex.github.io/cursor-ai-ui-clone/
+
 ### Screenshot
 
 <hr>
