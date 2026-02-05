@@ -6,7 +6,6 @@ A frontend UI clone inspired by Cursor AI, built using pure HTML and CSS.
 
 - Cursor AI–inspired layout and styling
 - Built with pure HTML and CSS (no frameworks)
-- Responsive design (if applicable)
 
 ### 🛠 Tech Stack
 
