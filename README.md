@@ -1,5 +1,4 @@
 ## Cursor AI UI Clone
-
 A frontend UI clone inspired by Cursor AI, built using pure HTML and CSS.
 
 ### 🚀 Features
@@ -9,8 +8,8 @@ A frontend UI clone inspired by Cursor AI, built using pure HTML and CSS.
 ### 🛠 Tech Stack
 - HTML5
 - CSS3
-#### Desktop-only implementation
 
+#### Desktop-only implementation
 ### 📌 Disclaimer
 
 This project is for educational purposes only and is not affiliated with Cursor AI.
